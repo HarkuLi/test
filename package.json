@@ -1,22 +1,15 @@
 {
-  "name": "test",
+  "name": "mocha_test",
   "version": "1.0.0",
-  "description": "test",
-  "main": "main.js",
+  "description": "just test",
+  "main": "pow.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HarkuLi/test.git"
-  },
   "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/HarkuLi/test/issues"
-  },
-  "homepage": "https://github.com/HarkuLi/test#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
   }
 }
