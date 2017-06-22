@@ -1,3 +1,8 @@
-console.log('hello world!');
-let luckynumber = Math.floor(Math.random()*100)+1;
-console.log('Your lucky number is '+luckynumber);
+var ip   = "127.0.0.1";
+var port = 3000;
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+}).listen(port, ip);
